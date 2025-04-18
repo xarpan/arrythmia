@@ -1,0 +1,4 @@
+*.npy filter=lfs diff=lfs merge=lfs -text
+processed_data/ecg_segments.npy filter=lfs diff=lfs merge=lfs -text
+processed_data/ecg_labels.npy filter=lfs diff=lfs merge=lfs -text
+processed_data/label_mapping.npy filter=lfs diff=lfs merge=lfs -text
